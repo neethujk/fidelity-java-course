@@ -1,0 +1,32 @@
+#container{
+    overflow:hidden;
+}
+
+#content{
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(250, 159, 159);
+}
+
+#main-area
+{
+    float: left;
+    width: 75%;
+    min-height: 600px;
+    box-sizing: border-box;
+    background-color: rgb(243, 238, 232);
+}
+
+#right-bar{
+    border-left: solid rgb(250, 159, 159);
+    width: 25%;
+    min-height: 600px;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgb(243, 238, 232);
+}
+#footer{
+    min-height: 100px;
+    width: 100%;
+    background-color:  #c48378cb;
+}
